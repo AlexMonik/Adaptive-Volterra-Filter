@@ -1,2 +1,2 @@
 # Adaptive-Volterra-Filter
-Adaptive Volterra filters. 
+There are some of AVF algorithms.
