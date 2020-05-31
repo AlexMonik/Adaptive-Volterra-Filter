@@ -5,7 +5,8 @@ To find optimal weights of filter its required the array of the input signal (ro
 
 Briefly how to use:  
 _Define filter model_  
-`model = OptimalFilter()`  
+1 - linear filter, 2 - nonliner  
+`model = OptimalFilter(1)`  
 _Find the optimal weights_  
 `model.fit(X, y)`  
 _To predict the output values_  
