@@ -15,7 +15,7 @@ class LMSFilter:
         self.mu2 = mu2
         self.complx = complx
 
-    def learn(self, x, y):
+    def train(self, x, y):
         """
         Calculate optimal weights of filter.
         :param x: inputs (pandas.DataFrame or numpy.array with shape of M x N, M - number of realizations,
